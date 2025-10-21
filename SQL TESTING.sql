@@ -1,0 +1,2 @@
+Create Database Maggidub_Sales
+Create Table Maggidub_Record (RowID INT PRIMARY KEY, OrderID VARCHAR (20), OrderDate DATE, ShipDate DATE, CustomerID VARCHAR (20), CustomerName VARCHAR (30), Segment VARCHAR (20), Country VARCHAR (20), City VARCHAR (20), State VARCHAR (20), PosterCode VARCHAR (20), Region VARCHAR (20), Category VARCHAR (20), SubCategory VARCHAR (20), Sales DECIMAL (20,2), Quantity INT, Discount DECIMAL (10,2), Profit DECIMAL (20,2));
